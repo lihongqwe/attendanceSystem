@@ -67,6 +67,9 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
         String startTime= startDate+ " "+"23:59:59";
         String endTime =EndDate+" "+ "00:00:00";
         List<studentAttendanceInfo> studentAttendanceInfoList=studentAttendanceInfoMapper.searchAllByTime(userId,startTime,endTime);
+        if(studentAttendanceInfoList.size()==0){
+            return Result.error("没有该用户信息");
+        }
         Result result=new Result();
         result.put("learningTime",calculateLearningTime(attendanceRecordsList(studentAttendanceInfoList),CONVERSION));
         result.put("list",attendanceRecordsList(studentAttendanceInfoList));
@@ -138,6 +141,7 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
                     AttendanceRecords attendanceRecordsLast = new AttendanceRecords();
                     attendanceRecordsLast.setClockDate(clockDateLast);
                     attendanceRecordsLast.setFromWordTIme(dateFormats.format(studentAttendanceInfoList.get(a).getUserCheckTime()));
+                    attendanceRecordsLast.setGoWorkTime("");
                     attendanceRecordsLast.setLength("0.0");
                     attendanceRecordsUp = attendanceRecordsLast;
                     attendanceRecordsList.add(attendanceRecordsUp);

@@ -33,7 +33,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             user.setUsername(studentUserInfo.getPhonenumber());
             user.setNickName(studentUserInfo.getUserName());
             user.setRoles(studentUserInfo.getRoles());
-            user.setPhonenumber((int) Long.parseLong(studentUserInfo.getPhonenumber()));
+            user.setPhonenumber(studentUserInfo.getPhonenumber());
             user.setPassword(studentUserInfo.getPassword());
             return createLoginUser(user);
         }

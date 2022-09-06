@@ -26,7 +26,6 @@ public class ProfileController {
         return sysUserService.uptateprofile(user);
     }
 
-
     @GetMapping("profile/resetPassword")
     public Result resetPassword(
             @RequestParam(value = "oldPassword") String oldPassword,

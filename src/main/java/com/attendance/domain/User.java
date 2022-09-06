@@ -10,7 +10,7 @@ public class User {
 
     private String roles;
 
-    private Integer phonenumber;
+    private String phonenumber;
 
     private String password;
 
@@ -46,11 +46,11 @@ public class User {
         this.roles = roles == null ? null : roles.trim();
     }
 
-    public Integer getPhonenumber() {
+    public String getPhonenumber() {
         return phonenumber;
     }
 
-    public void setPhonenumber(Integer phonenumber) {
+    public void setPhonenumber(String phonenumber) {
         this.phonenumber = phonenumber;
     }
 

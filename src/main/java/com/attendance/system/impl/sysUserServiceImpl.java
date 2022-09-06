@@ -110,7 +110,7 @@ public class sysUserServiceImpl implements sysUserService {
             user1.setPassword(studentUserInfo.getPassword());
             user1.setUsername(studentUserInfo.getPhonenumber());
             user1.setNickName(studentUserInfo.getUserName());
-            user1.setPhonenumber((int) Long.parseLong(studentUserInfo.getPhonenumber()));
+            user1.setPhonenumber((studentUserInfo.getPhonenumber()));
             user.add(user1);
         }
         List list=ListUtils.startPage(user,Page,pageSize);

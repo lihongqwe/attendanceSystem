@@ -46,7 +46,6 @@ public class AttendanceController {
         result.put("WorkingHours",WorkingHours);
         result.put("LearnHours",LearnHours);
         return Result.success(result);
-
     }
 
     /**

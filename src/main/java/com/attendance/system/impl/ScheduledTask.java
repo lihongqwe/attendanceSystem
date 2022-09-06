@@ -306,10 +306,5 @@ public class ScheduledTask implements ScheduledTasks {
         return StudentIdList;
     }
 
-
-    @Override
-    public List<OapiAttendanceGetAttendUpdateDataResponse.AtAttendanceResultForOpenVo> getUserNowClockInfo() {
-        return null;
-    }
 }
 

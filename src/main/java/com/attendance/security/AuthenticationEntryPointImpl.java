@@ -21,7 +21,7 @@ public class AuthenticationEntryPointImpl implements AuthenticationEntryPoint, S
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException e)
     {
-        renderString(response,"用户授权未通过",401);
+        renderString(response,"用户授权未通过",406);
     }
 
     public static String renderString(HttpServletResponse response, String string,Integer httpCode)
