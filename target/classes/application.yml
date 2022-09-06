@@ -1,0 +1,61 @@
+server:
+  port: 8082
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/attendance?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&characterEncoding=utf-8&allowMultiQueries=true
+    username: root
+    password: root
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    password:
+    timeout: 10s
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 8
+        max-active: 8
+        max-wait: -1ms
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.attendance.domain
+  mapper-locations: classpath*:mapper/*Mapper.xml
+
+
+
+
+# 日志配置
+logging:
+  level:
+    com.wall: debug
+    org.springframework: warn
+
+# PageHelper
+pagehelper:
+  helperDialect: mysql
+  supportMethodsArguments: true
+  params: count=countSql
+
+# token配置
+token:
+  # 令牌自定义标识
+  header: Authorization
+  # 令牌密钥
+  secret: attendance
+  # 令牌有效期（默认30分钟）
+  expireTime: 60
+
+
+dingtalk:
+  app_key: ding1fzqciowupqxpkke
+  app_secret: 9mRFw3jNKDhlr_NUVcko00Jh8vqoju9ZyaRBI7wPkETSfhCK3Xm5qJvZQNowS0rl
+  corp_id: dinga05955bb50e3077ff5bf40eda33b7ba0
+  agent_id: 1524435167
+  SSOsecret: 9lyOdbbQnpGEUIyGwPBdUhd2cACbwfRKH-zqFDub9Khu-QHA1vngv2QcoNr9O2JT
