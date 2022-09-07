@@ -82,7 +82,7 @@ public class sysUserServiceImpl implements sysUserService {
     public Result GetUserInfo(String username) {
         Result result=new Result();
         if(username.length()==11){
-            return  result.put("userInfo",studentUserInfoMapper.selectByPhoneNumber(username));
+            return  Result.success(result.put("userInfo",studentUserInfoMapper.selectByPhoneNumber(username)));
         }
         if(StringUtils.isNotNull(userMapper.selectUserByUserName(username))){
             result.put("userInfo",userMapper.selectUserByUserName(username));
@@ -130,13 +130,19 @@ public class sysUserServiceImpl implements sysUserService {
     @Override
     public Result uptateuserinfo(User user) {
         BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
-        if(user.getUserId().length()==11){
+        int a;
+        if(user.getUserId().length()!=1){
             studentUserInfo studentUserInfo=new studentUserInfo();
             studentUserInfo.setUserId(user.getUserId());
             studentUserInfo.setRoles(user.getRoles());
+            studentUserInfo.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+            studentUserInfo.setUserName(user.getUsername());
+            studentUserInfo.setPhonenumber(user.getPhonenumber());
+            a=studentUserInfoMapper.update(studentUserInfo);
+        }else {
+            user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+            a=userMapper.updateByPrimaryKey(user);
         }
-        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
-        int a=userMapper.updateByPrimaryKey(user);
         if(a==1){
             return Result.success("修改用户信息成功");
         }
@@ -152,15 +158,27 @@ public class sysUserServiceImpl implements sysUserService {
      */
     @Override
     public Result uptateprofile(User user) {
-        user.setUserId((loginUser().getUser().getUserId()));
-        user.setRoles(loginUser().getUser().getRoles());
-        user.setPassword(loginUser().getPassword());
-        if(userMapper.updateByPrimaryKey(user)==1){
+        int a;
+        if(StringUtils.userId(loginUser().getUser().getUserId())){
+            studentUserInfo studentUserInfo=new studentUserInfo();
+            studentUserInfo.setPhonenumber(user.getPhonenumber());
+            studentUserInfo.setUserId(loginUser().getUser().getUserId());
+            studentUserInfo.setRoles(loginUser().getUser().getRoles());
+            studentUserInfo.setUserName(loginUser().getUser().getNickName());
+            studentUserInfo.setPassword(loginUser().getUser().getPassword());
+           a= studentUserInfoMapper.update(studentUserInfo);
+        }else {
+            user.setUserId((loginUser().getUser().getUserId()));
+            user.setRoles(loginUser().getUser().getRoles());
+            user.setPassword(loginUser().getPassword());
+            a=userMapper.updateByPrimaryKey(user);
+        }
+        if(a==1){
+            tokenUtils.refreshLoginUser(loginUser());
             return Result.success("修改成功");
         }
         loginUser().setUser(user);
         // 刷新登录的用户缓存
-        tokenUtils.refreshLoginUser(loginUser());
         return Result.error();
     }
 

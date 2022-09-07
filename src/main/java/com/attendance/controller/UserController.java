@@ -52,7 +52,7 @@ public class UserController {
     }
 
     /**
-     * 更新用户信息
+     * 修改用户信息
      *
      * @return {@link Result}
      */

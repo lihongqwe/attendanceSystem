@@ -40,8 +40,20 @@ public interface sysUserService {
      */
     public Map<String,Object> GetUserList(Integer Page);
 
+    /**
+     * uptateuserinfo
+     *
+     * @param user 用户
+     * @return {@link Result}
+     */
     public Result uptateuserinfo( User user);
 
+
+    /**
+     * 修改个人信息
+     * @param user
+     * @return
+     */
     public Result uptateprofile(User user);
 
 

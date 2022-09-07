@@ -107,6 +107,15 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
     }
 
     /**
+     * 判断用户名是否是学生
+     * @param str
+     * @return
+     */
+    public static boolean userId(String str){
+        return str.length() != 1;
+    }
+
+    /**
      * * 判断一个字符串是否为非空串
      *
      * @param str String

@@ -16,7 +16,7 @@ public class ProfileController {
     private sysUserService sysUserService;
 
     /**
-     * 更新个人信息
+     * 修改个人信息
      *
      * @param user 用户
      * @return {@link Result}
