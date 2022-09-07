@@ -36,11 +36,12 @@
 
     <update id="update" parameterType="com.attendance.domain.studentUserInfo">
         update student_user_info
-        set user_id     = #{userId,jdbcType=VARCHAR},
+        set
             user_name   = #{userName,jdbcType=VARCHAR},
             phonenumber = #{phonenumber,jdbcType=VARCHAR},
             password = #{password,jdbcType=VARCHAR},
-            roles=#{roles}
+            roles=   #{roles}
+        where user_id=#{userId}
     </update>
 
     <update id="updateByPrimaryKey" parameterType="String">
@@ -62,6 +63,10 @@
         select id, user_id, user_name, phonenumber, password,roles
         from student_user_info
         where phonenumber = #{phonenumber,jdbcType=INTEGER}
+    </select>
+
+    <select id="selectByPrimaryKey" parameterType="String" resultMap="BaseResultMap">
+        select  * from  student_user_info where user_id=#{userId}
     </select>
 
     <select id="selectAll" resultMap="BaseResultMap">

@@ -26,6 +26,13 @@ public class ProfileController {
         return sysUserService.uptateprofile(user);
     }
 
+    /**
+     * 重置密码
+     *
+     * @param oldPassword 旧密码
+     * @param newPassword 新密码
+     * @return {@link Result}
+     */
     @GetMapping("profile/resetPassword")
     public Result resetPassword(
             @RequestParam(value = "oldPassword") String oldPassword,

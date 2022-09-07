@@ -13,7 +13,7 @@ public class LoginUser implements UserDetails {
     /**
      * 用户ID
      */
-    private Long userId;
+    private Integer userId;
 
     /**
      * 用户唯一标识
@@ -39,6 +39,15 @@ public class LoginUser implements UserDetails {
 
     private  String userType;
 
+    private studentUserInfo  studentUserInfo;
+
+    public com.attendance.domain.studentUserInfo getStudentUserInfo() {
+        return studentUserInfo;
+    }
+
+    public void setStudentUserInfo(com.attendance.domain.studentUserInfo studentUserInfo) {
+        this.studentUserInfo = studentUserInfo;
+    }
 
     public User getUser() {
         return User;
@@ -77,7 +86,7 @@ public class LoginUser implements UserDetails {
     }
 
 
-    public void setUserId(Long userId) {
+    public void setUserId(Integer userId) {
         this.userId = userId;
     }
 
@@ -89,7 +98,7 @@ public class LoginUser implements UserDetails {
         this.User = User;
     }
 
-    public Long getUserId() {
+    public Integer getUserId() {
         return userId;
     }
 

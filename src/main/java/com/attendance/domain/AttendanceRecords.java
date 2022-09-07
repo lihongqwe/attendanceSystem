@@ -7,6 +7,7 @@ package com.attendance.domain;
  * @date 2022/09/03
  */
 public class AttendanceRecords {
+
     private String clockDate;
     private String length;
     private String goWorkTime;

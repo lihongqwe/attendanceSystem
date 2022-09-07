@@ -25,18 +25,11 @@ public class GlobalExceptionHandler {
         return Result.error("400","缺少必要的参数");
     }
 
-    @ExceptionHandler(NullPointerException.class)
-    @ResponseStatus(value= HttpStatus.INTERNAL_SERVER_ERROR)
-    public Result handleTypeMismatchException(NullPointerException ex){
-        logger.error("空指针异常,{}",ex.getMessage());
-        return  Result.error("501","空指针异常了");
-    }
-
     @ExceptionHandler(Exception.class)
     @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
     public Result handleUnexpectedServer(Exception ex){
-        logger.error("系统异常：",ex);
-        return  Result.error("500","系统异常");
+        logger.error("系统异常123：",ex);
+        return  Result.error("系统异常");
     }
 
 

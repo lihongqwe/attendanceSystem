@@ -2,6 +2,8 @@ package com.attendance.controller;
 
 import com.attendance.common.Result;
 import com.attendance.domain.LoginUser;
+import com.attendance.domain.creditTransfer;
+import com.attendance.mapper.creditTransferMapper;
 import com.attendance.system.studentAttendanceInfoService;
 import com.attendance.utils.ServletUtils;
 import com.attendance.utils.StringUtils;
@@ -25,9 +27,11 @@ public class AttendanceController {
     @Autowired
     private studentAttendanceInfoService studentAttendanceInfoService;
 
-
     @Autowired
     private TokenUtils tokenUtils;
+
+    @Autowired
+    private creditTransferMapper creditTransferMapper;
 
     @GetMapping("/user/list")
     public Result getstudentattendanceinfo(@RequestParam(value = "userId") String  userId,
@@ -35,17 +39,20 @@ public class AttendanceController {
     if(StringUtils.isNull(startDate) || StringUtils.isNull(EndDate) || StringUtils.isNull(conversion)){
         return studentAttendanceInfoService.GetStudentAttendanceInfo(userId);
     }
-        return studentAttendanceInfoService.GetStudentAttendanceInfoByTime(userId,conversion,EndDate,startDate);
+        return studentAttendanceInfoService.GetStudentAttendanceInfoByTime(userId,EndDate,startDate);
     }
 
 
     @GetMapping("/conversion")
-    public Result conversion(@RequestParam(value = "WorkingHours") String  WorkingHours,
-                             @RequestParam(value = "LearnHours") String  LearnHours){
-        Result result=new Result();
-        result.put("WorkingHours",WorkingHours);
-        result.put("LearnHours",LearnHours);
-        return Result.success(result);
+    public Result conversion( Integer  WorkingHours, Integer  LearnHours){
+            creditTransfer creditTransfer=new creditTransfer();
+            creditTransfer.setId(1);
+            creditTransfer.setWorkingHours(WorkingHours);
+            creditTransfer.setLearnHours(LearnHours);
+           if(creditTransferMapper.updateByPrimaryKey(creditTransfer)==1){
+               return Result.success("修改成功");
+           }
+        return Result.error("修改失败");
     }
 
     /**

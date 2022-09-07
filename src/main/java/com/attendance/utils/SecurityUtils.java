@@ -19,7 +19,7 @@ public class SecurityUtils
     /**
      * 用户ID
      **/
-    public static Long getUserId()
+    public static Integer getUserId()
     {
         try
         {

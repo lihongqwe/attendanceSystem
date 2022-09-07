@@ -180,11 +180,25 @@ public class sysUserServiceImpl implements sysUserService {
         User.setUserId(loginUser().getUser().getUserId());
         User.setRoles(loginUser().getUser().getRoles());
         if(loginUser().getUser().getUserId().length()==11){
-            studentUserInfoMapper.updateByPrimaryKey(loginUser().getUser().getUserId(),newPassword);
+            studentUserInfo  studentUserInfo=new studentUserInfo();
+            studentUserInfo.setPassword(newEncryptedPassword);
+            studentUserInfo.setUserId(loginUser().getUser().getUserId());
+            studentUserInfo.setRoles(loginUser().getUser().getRoles());
+            studentUserInfo.setUserName(loginUser().getUser().getNickName());
+            studentUserInfo.setPhonenumber(loginUser().getUser().getPhonenumber());
+            studentUserInfoMapper.update(studentUserInfo);
+            studentUserInfo  studentUserInfos =studentUserInfoMapper.selectByPrimaryKey(loginUser().getUser().getUserId());
+            User.setPassword(studentUserInfos.getPassword());
+            User.setUserId(studentUserInfos.getUserId());
+            User.setRoles(studentUserInfos.getRoles());
+            User.setPhonenumber(studentUserInfos.getPhonenumber());
+            User.setNickName(studentUserInfos.getUserName());
+//            loginUser().setUser(User);
         }else {
             userMapper.updateByPrimaryKey(User);
+//            loginUser().setSysUser(userMapper.selectByPrimaryKey(loginUser().getSysUser().getUserId()));
         }
-        loginUser().setSysUser(userMapper.selectByPrimaryKey(loginUser().getSysUser().getUserId()));
+
         tokenUtils.refreshLoginUser(loginUser());
         return Result.success("修改成功");
     }

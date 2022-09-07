@@ -16,6 +16,8 @@ public interface studentUserInfoMapper {
 
     studentUserInfo selectByPhoneNumber(String PhoneNumber);
 
+    studentUserInfo selectByPrimaryKey(String userId);
+
     List<studentUserInfo> selectAll();
 
     int update(studentUserInfo record);

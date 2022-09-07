@@ -1,689 +1,346 @@
-2022-09-06 12:25:19.606 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 7772 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 12:25:19.609 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 12:25:21.217 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:25:21.218 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 12:25:21.218 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 12:25:21.280 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 12:25:22.571 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:25:22.612 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.538 seconds (JVM running for 4.558)
-2022-09-06 12:25:49.606 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 12164 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 12:25:49.608 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 12:25:52.161 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:25:52.161 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 12:25:52.162 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 12:25:52.359 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 12:25:54.973 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:25:55.087 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 6.082 seconds (JVM running for 7.007)
-2022-09-06 12:25:58.294 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 12:25:59.505 [http-nio-8082-exec-3] INFO  com.attendance.system.impl.TokenServiceImpl - 获取DingTalkToken,redis成功
-2022-09-06 12:27:21.996 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 17464 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 12:27:21.997 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 12:27:23.368 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:27:23.369 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 12:27:23.369 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 12:27:23.431 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 12:27:24.463 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:27:24.486 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.921 seconds (JVM running for 3.598)
-2022-09-06 12:27:26.321 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 12:27:45.902 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18440 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 12:27:45.903 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 12:27:47.003 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:27:47.003 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 12:27:47.003 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 12:27:47.088 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 12:27:48.058 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:27:48.080 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.506 seconds (JVM running for 3.103)
-2022-09-06 12:27:51.895 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 12:29:01.244 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 6748 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 12:29:01.245 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 12:29:02.354 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:29:02.355 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 12:29:02.355 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 12:29:02.413 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 12:29:03.455 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 12:29:03.480 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.755 seconds (JVM running for 3.461)
-2022-09-06 12:29:04.802 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:20:53.753 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 13784 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:20:53.754 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:20:55.156 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:20:55.156 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:20:55.156 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:20:55.222 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:20:56.265 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:20:56.287 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.98 seconds (JVM running for 3.642)
-2022-09-06 13:21:17.947 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 17808 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:21:17.949 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:21:19.035 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:21:19.035 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:21:19.035 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:21:19.091 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:21:20.167 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:21:20.190 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.702 seconds (JVM running for 3.373)
-2022-09-06 13:21:23.546 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:22:07.778 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 1652 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:22:07.779 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:22:08.812 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:22:08.812 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:22:08.813 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:22:08.871 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:22:09.859 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:22:09.883 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.427 seconds (JVM running for 3.062)
-2022-09-06 13:22:18.211 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:23:05.761 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18160 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:23:05.762 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:23:06.835 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:23:06.835 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:23:06.836 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:23:06.891 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:23:07.916 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:23:07.939 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.554 seconds (JVM running for 3.199)
-2022-09-06 13:23:16.451 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:25:53.642 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 1216 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:25:53.642 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:25:54.707 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:25:54.707 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:25:54.707 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:25:54.766 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:25:56.026 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:25:56.051 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.758 seconds (JVM running for 3.379)
-2022-09-06 13:25:58.746 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:26:52.502 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 2396 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:26:52.503 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:26:53.560 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:26:53.560 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:26:53.560 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:26:53.616 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:26:54.596 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:26:54.619 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.457 seconds (JVM running for 3.019)
-2022-09-06 13:26:56.527 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:27:11.212 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 7208 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:27:11.213 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:27:12.256 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:27:12.256 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:27:12.256 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:27:12.315 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:27:13.285 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:27:13.307 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.443 seconds (JVM running for 3.024)
-2022-09-06 13:27:14.594 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:29:12.682 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16732 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:29:12.683 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:29:13.864 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:29:13.864 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:29:13.865 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:29:13.924 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:29:14.963 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:29:14.987 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.661 seconds (JVM running for 3.258)
-2022-09-06 13:29:16.118 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:34:44.874 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16672 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:34:44.875 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:34:45.940 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:34:45.940 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:34:45.940 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:34:45.997 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:34:47.006 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:34:47.029 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.496 seconds (JVM running for 3.11)
-2022-09-06 13:34:50.412 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:35:13.205 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 2176 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:35:13.206 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:35:14.278 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:35:14.279 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:35:14.279 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:35:14.362 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:35:15.636 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:35:15.659 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.028 seconds (JVM running for 3.741)
-2022-09-06 13:35:16.794 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:35:38.494 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 6392 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:35:38.496 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:35:39.628 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:35:39.628 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:35:39.628 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:35:39.690 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:35:40.899 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:35:40.928 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.95 seconds (JVM running for 3.728)
-2022-09-06 13:35:42.666 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:37:41.878 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16972 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:37:41.879 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:37:42.968 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:37:42.968 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:37:42.968 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:37:43.029 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:37:44.122 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:37:44.156 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.806 seconds (JVM running for 3.49)
-2022-09-06 13:37:45.340 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:38:19.378 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 13368 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:38:19.380 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:38:20.722 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:38:20.722 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:38:20.722 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:38:20.779 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:38:21.842 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:38:21.867 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.817 seconds (JVM running for 3.434)
-2022-09-06 13:38:23.532 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:38:42.447 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 4468 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:38:42.448 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:38:43.652 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:38:43.652 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:38:43.652 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:38:43.716 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:38:45.241 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:38:45.266 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.215 seconds (JVM running for 4.112)
-2022-09-06 13:38:45.873 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:40:20.716 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 15368 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:40:20.718 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:40:22.133 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:40:22.134 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:40:22.134 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:40:22.200 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:40:23.453 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:40:23.478 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.472 seconds (JVM running for 4.334)
-2022-09-06 13:40:32.979 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:43:04.952 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 4524 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:43:04.953 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:43:06.020 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:43:06.021 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:43:06.021 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:43:06.086 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:43:07.358 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:43:07.381 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.77 seconds (JVM running for 3.379)
-2022-09-06 13:43:26.233 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 7032 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:43:26.234 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:43:27.272 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:43:27.272 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:43:27.272 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:43:27.333 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:43:28.321 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:43:28.344 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.441 seconds (JVM running for 3.095)
-2022-09-06 13:43:33.468 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:46:35.651 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 9644 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:46:35.652 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:46:36.756 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:46:36.757 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:46:36.757 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:46:36.818 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:46:37.888 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:46:37.919 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.78 seconds (JVM running for 3.512)
-2022-09-06 13:46:48.114 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 10324 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:46:48.116 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:46:49.215 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:46:49.215 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:46:49.215 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:46:49.272 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:46:50.284 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:46:50.306 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.676 seconds (JVM running for 3.288)
-2022-09-06 13:46:56.437 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:49:15.245 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 17844 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:49:15.246 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:49:16.615 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:49:16.616 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:49:16.616 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:49:16.676 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:49:18.094 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:49:18.132 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.683 seconds (JVM running for 4.287)
-2022-09-06 13:49:20.184 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:53:12.715 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16900 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:53:12.716 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:53:13.768 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:53:13.769 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:53:13.769 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:53:13.881 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:53:14.964 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:53:15.016 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.702 seconds (JVM running for 3.468)
-2022-09-06 13:53:15.046 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 13:54:37.155 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 448 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 13:54:37.156 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 13:54:38.348 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:54:38.349 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 13:54:38.349 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 13:54:38.413 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 13:54:39.585 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 13:54:39.611 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.044 seconds (JVM running for 3.868)
-2022-09-06 13:54:41.878 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:22:43.528 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 13580 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:22:43.529 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:22:44.896 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:22:44.897 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:22:44.897 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:22:44.961 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:22:46.215 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:22:46.239 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.216 seconds (JVM running for 4.067)
-2022-09-06 14:22:48.607 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:23:52.723 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18468 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:23:52.724 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:23:53.777 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:23:53.777 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:23:53.778 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:23:53.835 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:23:54.863 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:23:54.886 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.498 seconds (JVM running for 3.083)
-2022-09-06 14:23:56.520 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:25:04.971 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 9240 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:25:04.972 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:25:06.049 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:25:06.050 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:25:06.050 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:25:06.109 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:25:07.113 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:25:07.135 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.499 seconds (JVM running for 3.055)
-2022-09-06 14:25:18.197 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:25:27.411 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:25:27.618 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:25:28.138 [http-nio-8082-exec-1] INFO  com.attendance.system.impl.ScheduledTask - 用户信息更新成功
-2022-09-06 14:25:50.849 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:25:50.856 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:25:54.385 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 10164 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:25:54.386 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:25:55.485 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:25:55.486 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:25:55.486 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:25:55.545 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:25:56.639 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:25:56.662 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.609 seconds (JVM running for 3.129)
-2022-09-06 14:25:58.994 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:26:50.276 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16776 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:26:50.277 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:26:51.589 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:26:51.590 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:26:51.590 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:26:51.668 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:26:52.803 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:26:52.827 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.058 seconds (JVM running for 3.785)
-2022-09-06 14:27:08.304 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:27:09.145 [http-nio-8082-exec-3] INFO  com.attendance.system.impl.TokenServiceImpl - 获取DingTalkToken,redis成功
-2022-09-06 14:27:10.647 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:27:10.758 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:27:10.812 [http-nio-8082-exec-3] INFO  com.attendance.system.impl.ScheduledTask - 数据获取完毕
-2022-09-06 14:27:11.201 [http-nio-8082-exec-3] INFO  com.attendance.system.impl.ScheduledTask - 数据获取完毕
-2022-09-06 14:27:11.201 [http-nio-8082-exec-3] INFO  com.attendance.system.impl.ScheduledTask - 考勤数据持久化成功
-2022-09-06 14:27:36.075 [http-nio-8082-exec-2] INFO  com.attendance.system.impl.ScheduledTask - 数据获取完毕
-2022-09-06 14:27:36.342 [http-nio-8082-exec-2] INFO  com.attendance.system.impl.ScheduledTask - 数据获取完毕
-2022-09-06 14:27:36.342 [http-nio-8082-exec-2] INFO  com.attendance.system.impl.ScheduledTask - 考勤数据持久化成功
-2022-09-06 14:34:32.146 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:34:32.155 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:34:36.191 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 13224 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:34:36.192 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:34:37.482 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:34:37.483 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:34:37.483 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:34:37.557 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:34:39.284 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:34:39.355 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.504 seconds (JVM running for 4.099)
-2022-09-06 14:34:51.380 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:34:51.589 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:34:52.067 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:37:33.039 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 2748 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:37:33.041 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:37:34.249 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:37:34.250 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:37:34.250 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:37:34.324 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:37:35.686 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:37:35.717 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.047 seconds (JVM running for 3.673)
-2022-09-06 14:37:38.006 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:37:38.694 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:37:38.999 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:42:42.429 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:42:42.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:42:46.175 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18352 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:42:46.177 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:42:47.461 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:42:47.462 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:42:47.462 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:42:47.518 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:42:48.560 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:42:48.582 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.77 seconds (JVM running for 3.327)
-2022-09-06 14:42:50.781 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:42:51.333 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:42:51.579 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:44:10.137 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:44:10.146 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:44:13.808 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 4888 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:44:13.809 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:44:14.862 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:44:14.862 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:44:14.862 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:44:14.923 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:44:16.023 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:44:16.046 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.577 seconds (JVM running for 3.132)
-2022-09-06 14:44:19.769 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:44:20.326 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:44:20.570 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:45:33.167 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:45:33.175 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:47:25.117 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 7344 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:47:25.118 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:47:26.231 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:47:26.232 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:47:26.232 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:47:26.289 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:47:27.346 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:47:27.371 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.676 seconds (JVM running for 3.272)
-2022-09-06 14:47:30.299 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:47:30.835 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:47:31.110 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:49:58.174 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:49:58.182 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:50:35.217 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18344 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:50:35.220 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:50:36.455 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:50:36.456 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:50:36.456 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:50:36.512 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:50:37.525 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:50:37.549 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.793 seconds (JVM running for 3.408)
-2022-09-06 14:51:01.516 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16364 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:51:01.518 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:51:02.888 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:51:02.889 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:51:02.889 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:51:02.956 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:51:04.051 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:51:04.074 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.114 seconds (JVM running for 4.024)
-2022-09-06 14:51:05.179 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:51:05.742 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:51:06.026 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:53:21.428 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:53:21.440 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:53:36.923 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 8904 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:53:36.924 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:53:38.237 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:53:38.238 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:53:38.238 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:53:38.290 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:53:39.322 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:53:39.344 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.776 seconds (JVM running for 3.399)
-2022-09-06 14:53:40.710 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:53:41.254 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:53:41.495 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:54:55.097 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:54:55.104 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:54:58.786 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 10988 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:54:58.788 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:54:59.840 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:54:59.840 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:54:59.841 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:54:59.898 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:55:00.941 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:55:00.963 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.523 seconds (JVM running for 3.1)
-2022-09-06 14:55:03.715 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:55:04.259 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:55:04.508 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:55:56.217 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:55:56.226 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:56:00.136 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 9668 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:56:00.137 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:56:01.169 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:56:01.170 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:56:01.170 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:56:01.226 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:56:02.210 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:56:02.233 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.433 seconds (JVM running for 3.045)
-2022-09-06 14:56:04.671 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:56:05.299 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:56:05.578 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:56:29.297 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:56:29.304 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:56:33.158 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 3684 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:56:33.159 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:56:34.230 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:56:34.230 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:56:34.231 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:56:34.315 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:56:35.326 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:56:35.349 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.603 seconds (JVM running for 3.299)
-2022-09-06 14:56:38.208 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:56:38.744 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:56:38.993 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:58:00.762 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:58:04.374 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 12480 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:58:04.375 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:58:05.405 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:58:05.405 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:58:05.406 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:58:05.464 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:58:06.818 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:58:06.842 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.792 seconds (JVM running for 3.344)
-2022-09-06 14:58:18.369 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16156 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:58:18.370 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:58:19.406 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:58:19.407 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:58:19.407 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:58:19.494 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:58:20.554 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:58:20.578 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.538 seconds (JVM running for 3.183)
-2022-09-06 14:58:22.677 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:58:23.216 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:58:23.457 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 14:58:51.367 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 14:58:51.374 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 14:58:55.142 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16496 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 14:58:55.143 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 14:58:56.191 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:58:56.192 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 14:58:56.192 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 14:58:56.250 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 14:58:57.257 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 14:58:57.282 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.484 seconds (JVM running for 3.04)
-2022-09-06 14:58:59.381 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 14:58:59.993 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 14:59:00.301 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 15:11:21.309 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 5060 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 15:11:21.310 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 15:11:26.733 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 3980 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 15:11:26.734 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 15:11:27.971 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 15:11:27.971 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 15:11:27.971 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 15:11:28.039 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 15:11:29.165 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 15:11:29.188 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.931 seconds (JVM running for 3.636)
-2022-09-06 15:11:41.927 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 15:11:47.033 [http-nio-8082-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 15:11:47.370 [http-nio-8082-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 15:15:35.288 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 19180 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 15:15:35.289 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 15:15:36.697 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 15:15:36.697 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 15:15:36.698 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 15:15:36.776 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 15:15:37.857 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 15:15:37.883 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.968 seconds (JVM running for 3.678)
-2022-09-06 15:15:40.570 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 15:15:41.365 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 15:15:41.576 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 15:22:47.789 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 14820 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 15:22:47.790 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 15:22:49.008 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 15:22:49.009 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 15:22:49.009 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 15:22:49.094 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 15:22:50.170 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 15:22:50.193 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.783 seconds (JVM running for 3.376)
-2022-09-06 15:22:51.416 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 15:22:51.951 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 15:22:52.099 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 15:24:23.953 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 15:24:23.959 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 15:24:27.741 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 14560 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 15:24:27.743 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 15:24:28.803 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 15:24:28.804 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 15:24:28.804 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 15:24:28.865 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 15:24:29.895 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 15:24:29.920 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.577 seconds (JVM running for 3.344)
-2022-09-06 15:24:32.301 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 15:24:32.816 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 15:24:32.957 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 15:33:30.364 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 15:33:30.372 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 18:04:56.542 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 12144 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 18:04:56.543 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 18:04:58.009 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:04:58.009 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 18:04:58.009 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 18:04:58.088 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 18:04:59.289 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:04:59.312 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.176 seconds (JVM running for 3.983)
-2022-09-06 18:07:28.327 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 18:09:35.565 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 18:09:35.979 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 18:15:10.414 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 18:15:10.421 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 18:15:15.647 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 7464 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 18:15:15.651 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 18:15:16.739 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:15:16.739 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 18:15:16.739 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 18:15:16.801 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 18:15:17.901 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:15:17.925 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.724 seconds (JVM running for 3.711)
-2022-09-06 18:17:24.463 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 18:17:25.303 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 18:17:25.574 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 18:20:58.552 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 11732 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 18:20:58.553 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 18:21:00.130 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:21:00.134 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 18:21:00.134 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 18:21:00.217 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 18:21:02.079 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:21:02.333 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 4.294 seconds (JVM running for 5.331)
-2022-09-06 18:21:05.256 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 18:21:05.976 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 18:21:06.189 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 18:32:21.499 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 17820 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 18:32:21.500 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 18:32:22.908 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:32:22.908 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 18:32:22.909 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 18:32:22.979 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 18:32:24.185 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:32:24.209 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.424 seconds (JVM running for 4.975)
-2022-09-06 18:32:29.736 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 18:32:30.376 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 18:32:30.590 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 18:42:13.691 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 18:42:13.697 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 18:42:19.442 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 15724 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 18:42:19.443 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 18:42:20.602 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:42:20.603 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 18:42:20.603 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 18:42:20.686 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 18:42:22.010 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 18:42:22.035 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.99 seconds (JVM running for 3.66)
-2022-09-06 18:48:52.282 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 18:48:52.437 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 18:48:52.757 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 19:23:46.172 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 5332 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:23:46.173 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:23:47.308 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:23:47.308 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:23:47.308 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:23:47.373 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:23:48.431 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:23:48.454 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.635 seconds (JVM running for 3.335)
-2022-09-06 19:23:48.766 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:23:48.920 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:23:49.279 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 19:40:17.604 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 19372 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:40:17.605 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:40:18.709 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:40:18.709 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:40:18.709 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:40:18.780 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:40:19.851 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:40:19.880 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.598 seconds (JVM running for 3.143)
-2022-09-06 19:40:23.033 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:40:23.599 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:40:23.751 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 19:40:40.218 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 19:40:40.226 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 19:40:44.269 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 21368 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:40:44.271 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:40:45.479 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:40:45.479 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:40:45.480 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:40:45.547 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:40:46.655 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:40:46.677 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.913 seconds (JVM running for 3.522)
-2022-09-06 19:40:49.775 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:40:50.289 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:40:50.432 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 19:41:32.332 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 19:41:32.338 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 19:41:36.098 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 19296 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:41:36.100 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:41:37.503 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:41:37.505 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:41:37.505 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:41:37.689 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:41:38.856 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:41:38.881 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.225 seconds (JVM running for 3.781)
-2022-09-06 19:41:40.790 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:41:41.457 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:41:41.650 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 19:41:54.178 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 19:41:54.186 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 19:41:59.430 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 19536 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:41:59.432 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:42:02.919 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 7004 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:42:02.920 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:42:04.115 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:42:04.115 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:42:04.115 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:42:04.202 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:42:05.441 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:42:05.464 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.893 seconds (JVM running for 3.549)
-2022-09-06 19:42:07.695 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:42:08.239 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:42:08.383 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 19:43:34.945 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 19:43:34.952 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 19:43:38.693 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18088 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:43:38.694 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:43:39.841 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:43:39.842 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:43:39.842 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:43:39.907 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:43:40.974 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:43:40.999 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.64 seconds (JVM running for 3.24)
-2022-09-06 19:43:45.154 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:43:45.675 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:43:45.822 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 19:44:05.540 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 19:44:05.568 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 19:44:10.607 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 20364 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:44:10.608 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:44:11.966 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:44:11.967 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:44:11.967 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:44:12.037 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:44:13.222 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:44:13.248 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.024 seconds (JVM running for 3.989)
-2022-09-06 19:44:14.594 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:44:17.770 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:45:26.987 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 20852 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:45:26.988 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:45:28.091 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:45:28.091 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:45:28.091 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:45:28.163 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:45:29.282 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:45:29.305 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.713 seconds (JVM running for 3.329)
-2022-09-06 19:45:32.006 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:45:32.520 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:45:32.670 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-09-06 19:47:53.424 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-09-06 19:47:53.431 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-09-06 19:47:57.576 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 20936 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
-2022-09-06 19:47:57.577 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
-2022-09-06 19:47:58.600 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:47:58.600 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-09-06 19:47:58.601 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-06 19:47:58.663 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-09-06 19:47:59.659 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-2022-09-06 19:47:59.682 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.43 seconds (JVM running for 3.033)
-2022-09-06 19:48:06.561 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-06 19:48:07.068 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-09-06 19:48:07.209 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 01:00:00.532 [scheduling-1] INFO  com.attendance.system.impl.TokenServiceImpl - 获取DingTalkToken,redis成功
+2022-09-07 01:00:10.862 [scheduling-1] INFO  com.attendance.system.impl.ScheduledTask - 数据获取完毕
+2022-09-07 01:00:11.237 [scheduling-1] INFO  com.attendance.system.impl.ScheduledTask - 数据获取完毕
+2022-09-07 01:00:11.237 [scheduling-1] INFO  com.attendance.system.impl.ScheduledTask - 考勤数据持久化成功
+2022-09-07 11:50:13.253 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 14672 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 11:50:13.255 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 11:50:15.042 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 11:50:15.042 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 11:50:15.043 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 11:50:15.136 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 11:50:16.597 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 11:50:16.621 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.787 seconds (JVM running for 5.056)
+2022-09-07 11:50:24.904 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 11:50:25.106 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 11:50:25.748 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 11:52:39.004 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 11:52:39.012 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 11:52:45.171 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 2844 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 11:52:45.172 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 11:52:46.864 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 11:52:46.864 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 11:52:46.864 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 11:52:46.943 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 11:52:48.074 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 11:52:48.100 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.369 seconds (JVM running for 4.196)
+2022-09-07 11:52:53.386 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 11:52:53.896 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 11:52:54.039 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:06:08.878 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18484 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:06:08.879 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:06:10.287 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:06:10.287 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:06:10.287 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:06:10.361 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:06:11.579 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:06:11.601 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.097 seconds (JVM running for 3.703)
+2022-09-07 12:07:38.644 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 104 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:07:38.645 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:07:39.728 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:07:39.728 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:07:39.728 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:07:39.799 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:07:40.912 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:07:40.934 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.614 seconds (JVM running for 3.356)
+2022-09-07 12:07:44.291 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:07:44.858 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:07:45.049 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:08:07.332 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:08:07.345 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:08:10.955 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 20780 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:08:10.956 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:08:12.511 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:08:12.512 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:08:12.512 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:08:12.579 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:08:13.657 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:08:13.682 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.067 seconds (JVM running for 3.603)
+2022-09-07 12:08:18.232 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:08:18.703 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:08:18.851 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:08:59.795 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:08:59.801 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:09:03.689 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 10200 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:09:03.690 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:09:04.777 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:09:04.777 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:09:04.777 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:09:04.842 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:09:06.010 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:09:06.035 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.672 seconds (JVM running for 3.345)
+2022-09-07 12:09:08.370 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:09:08.635 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:09:08.781 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:10:13.014 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:10:13.020 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:10:17.059 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 9172 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:10:17.061 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:10:18.377 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:10:18.378 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:10:18.378 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:10:18.434 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:10:19.561 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:10:19.585 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.978 seconds (JVM running for 3.582)
+2022-09-07 12:10:26.263 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:10:41.449 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 6440 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:10:41.450 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:10:42.498 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:10:42.498 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:10:42.498 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:10:42.567 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:10:43.566 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:10:43.589 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.477 seconds (JVM running for 3.047)
+2022-09-07 12:10:44.474 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:10:45.084 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:10:45.260 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:10:51.852 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:10:51.859 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:10:55.257 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 14596 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:10:55.258 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:10:56.620 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:10:56.620 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:10:56.620 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:10:56.703 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:10:58.149 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:10:58.176 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.301 seconds (JVM running for 4.265)
+2022-09-07 12:10:58.366 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:10:58.963 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:10:59.342 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:11:17.275 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:11:17.282 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:11:21.693 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 11924 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:11:21.694 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:11:23.019 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:11:23.020 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:11:23.020 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:11:23.113 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:11:24.262 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:11:24.287 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.177 seconds (JVM running for 3.962)
+2022-09-07 12:11:25.519 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:11:26.073 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:11:26.385 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:11:51.018 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:11:51.025 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:11:53.297 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18072 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:11:53.298 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:11:54.352 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:11:54.353 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:11:54.353 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:11:54.418 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:11:55.554 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:11:55.588 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.679 seconds (JVM running for 3.399)
+2022-09-07 12:12:17.326 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:12:29.541 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:12:29.801 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:15:21.156 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:15:21.163 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:15:25.050 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 5840 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:15:25.051 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:15:26.252 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:15:26.252 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:15:26.253 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:15:26.330 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:15:27.360 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:15:27.382 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.667 seconds (JVM running for 3.238)
+2022-09-07 12:15:33.880 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:15:34.402 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:15:34.556 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:17:55.514 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 6884 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:17:55.515 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:17:57.002 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:17:57.003 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:17:57.003 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:17:57.072 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:17:58.250 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:17:58.274 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.109 seconds (JVM running for 3.709)
+2022-09-07 12:17:59.276 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:17:59.813 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:17:59.982 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:18:08.433 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:18:08.440 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:18:11.063 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 2192 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:18:11.065 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:18:12.267 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:18:12.268 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:18:12.268 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:18:12.341 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:18:13.566 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:18:13.591 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.05 seconds (JVM running for 4.159)
+2022-09-07 12:18:15.654 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:18:34.545 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:18:37.057 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 12208 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:18:37.058 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:18:38.247 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:18:38.248 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:18:38.248 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:18:38.318 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:18:39.487 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:18:39.512 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.259 seconds (JVM running for 4.241)
+2022-09-07 12:18:41.802 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:18:50.292 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:18:51.087 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:19:36.284 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:19:53.239 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 15376 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:19:53.240 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:19:54.423 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:19:54.423 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:19:54.424 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:19:54.503 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:19:55.651 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:19:55.678 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.887 seconds (JVM running for 3.572)
+2022-09-07 12:20:06.464 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:20:13.653 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:20:14.453 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:32:19.469 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:32:19.475 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:42:09.722 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 13644 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:42:09.723 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:42:11.020 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:42:11.020 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:42:11.020 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:42:11.087 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:42:12.342 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:42:12.367 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.104 seconds (JVM running for 3.946)
+2022-09-07 12:42:14.074 [http-nio-8082-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:42:17.828 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:42:18.122 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:43:34.468 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:43:34.475 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:43:38.791 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16888 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:43:38.792 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:43:40.012 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:43:40.013 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:43:40.013 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:43:40.091 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:43:41.315 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:43:41.337 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.877 seconds (JVM running for 3.481)
+2022-09-07 12:43:41.829 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:43:42.391 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:43:42.590 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:43:58.472 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:43:58.479 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:44:09.993 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 2164 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:44:09.994 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:44:11.142 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:44:11.142 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:44:11.142 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:44:11.211 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:44:12.290 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:44:12.318 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.775 seconds (JVM running for 3.523)
+2022-09-07 12:44:26.406 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:44:50.422 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:44:50.671 [http-nio-8082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 12:56:53.654 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 12:56:53.660 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 12:56:57.626 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 7884 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 12:56:57.627 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 12:56:58.667 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:56:58.667 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 12:56:58.668 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 12:56:58.730 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 12:56:59.886 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 12:56:59.909 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.614 seconds (JVM running for 3.226)
+2022-09-07 12:57:11.637 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 12:57:11.817 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 12:57:12.072 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 13:00:07.775 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 13:00:07.783 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 13:00:11.765 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 13300 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 13:00:11.766 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 13:00:12.841 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:00:12.842 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 13:00:12.842 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 13:00:12.931 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 13:00:13.990 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:00:14.013 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.573 seconds (JVM running for 3.197)
+2022-09-07 13:00:16.816 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 13:00:17.429 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 13:00:17.576 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 13:01:39.345 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 13:01:39.353 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 13:01:42.189 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 20412 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 13:01:42.197 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 13:01:43.261 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:01:43.261 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 13:01:43.262 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 13:01:43.326 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 13:01:44.390 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:01:44.415 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.613 seconds (JVM running for 3.604)
+2022-09-07 13:01:47.862 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 13:01:48.508 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 13:01:48.668 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 13:02:35.749 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 13:02:35.755 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 13:02:38.102 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 15068 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 13:02:38.103 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 13:02:39.246 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:02:39.247 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 13:02:39.247 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 13:02:39.317 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 13:02:40.636 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:02:40.683 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.94 seconds (JVM running for 3.697)
+2022-09-07 13:02:49.984 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 13:02:50.608 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 13:02:50.751 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 13:12:48.040 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 13:12:48.046 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 13:12:51.819 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 11464 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 13:12:51.820 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 13:12:52.929 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:12:52.929 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 13:12:52.929 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 13:12:52.993 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 13:12:54.083 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:12:54.108 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.648 seconds (JVM running for 3.245)
+2022-09-07 13:12:56.678 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 13:12:57.458 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 13:12:57.623 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 13:15:25.454 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 13:15:25.461 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 13:15:38.907 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 15280 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 13:15:38.908 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 13:15:40.009 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:15:40.010 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 13:15:40.010 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 13:15:40.068 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 13:15:41.111 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:15:41.134 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.749 seconds (JVM running for 3.445)
+2022-09-07 13:15:42.140 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 13:15:42.755 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 13:15:42.897 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 13:24:03.706 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 13:24:03.712 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 13:24:17.271 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 3884 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 13:24:17.272 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 13:24:18.549 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:24:18.550 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 13:24:18.550 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 13:24:18.622 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 13:24:19.717 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:24:19.763 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.833 seconds (JVM running for 3.485)
+2022-09-07 13:24:20.486 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 13:24:21.065 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 13:24:21.224 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 13:25:47.701 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 13:25:47.708 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 13:25:51.866 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 18316 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 13:25:51.868 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 13:25:53.131 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:25:53.131 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 13:25:53.131 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 13:25:53.197 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 13:25:54.229 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:25:54.253 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.821 seconds (JVM running for 3.402)
+2022-09-07 13:25:56.066 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 13:25:56.675 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 13:25:56.818 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-07 13:27:06.886 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-09-07 13:27:06.892 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-09-07 13:27:10.559 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 12148 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-07 13:27:10.560 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-07 13:27:11.851 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:27:11.852 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 13:27:11.852 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 13:27:11.922 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 13:27:12.955 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-07 13:27:12.979 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.77 seconds (JVM running for 3.331)
