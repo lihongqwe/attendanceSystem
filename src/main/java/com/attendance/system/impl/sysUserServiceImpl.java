@@ -130,6 +130,11 @@ public class sysUserServiceImpl implements sysUserService {
     @Override
     public Result uptateuserinfo(User user) {
         BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
+        if(user.getUserId().length()==11){
+            studentUserInfo studentUserInfo=new studentUserInfo();
+            studentUserInfo.setUserId(user.getUserId());
+            studentUserInfo.setRoles(user.getRoles());
+        }
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         int a=userMapper.updateByPrimaryKey(user);
         if(a==1){

@@ -1,9 +1,6 @@
 package com.attendance.system;
 
 import com.attendance.common.Result;
-import com.attendance.domain.AttendanceRecords;
-
-import java.util.List;
 
 public interface studentAttendanceInfoService {
     /**
@@ -26,13 +23,7 @@ public interface studentAttendanceInfoService {
     public Result GetStudentAttendanceInfoByTime(String userId, String startDate, String EndDate);
 
 
-    /**
-     * 计算学分
-     *
-     * @param list 列表
-     * @return {@link Result}
-     */
-    public Result CalculationCredits(List<AttendanceRecords> list );
+
 
 
 }

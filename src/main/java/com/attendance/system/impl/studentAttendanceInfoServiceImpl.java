@@ -40,12 +40,14 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
     @Override
     public Result GetStudentAttendanceInfo(String userId) {
         List<studentAttendanceInfo> studentAttendanceInfoList = studentAttendanceInfoMapper.selectAll(userId);
+        Result result = new Result();
         if (studentAttendanceInfoList.size() == 0) {
-            throw new RuntimeException("没有该用户信息");
+            result.put("list",studentAttendanceInfoList);
+            result.put("credits", "");
+           return Result.success(result);
         }
         List<AttendanceRecords> list=attendanceRecordsList(studentAttendanceInfoList);
         //获取该用户的所有打卡信息
-        Result result = new Result();
         result.put("list", list);
         result.put("credits", CalculationCredits(list));
         return Result.success(result);
@@ -57,8 +59,7 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
      * @param list 列表
      * @return {@link Result}
      */
-    @Override
-    public Result CalculationCredits(List<AttendanceRecords> list ) {
+    public float CalculationCredits(List<AttendanceRecords> list ) {
         // 计算学分
         creditTransfer creditTransfer  =creditTransferMapper.selectByPrimaryKey(1);
         Integer WorkingHours=creditTransfer.getWorkingHours();
@@ -68,10 +69,7 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
             assert false;
             credits += Float.parseFloat(attendanceRecords.getLength());
         }
-
-        Result result = new Result();
-        result.put("credits", credits /(WorkingHours*LearnHours));
-        return Result.success(result);
+        return credits /(WorkingHours*LearnHours) ;
     }
 
     /**
@@ -100,11 +98,14 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
         String startTime = startDate + " " + "23:59:59";
         String endTime = EndDate + " " + "00:00:00";
         List<studentAttendanceInfo> studentAttendanceInfoList = studentAttendanceInfoMapper.searchAllByTime(userId, startTime, endTime);
-        if (studentAttendanceInfoList.size() == 0) {
-            return Result.error("没有该用户信息");
-        }
         Result result = new Result();
-        result.put("list", attendanceRecordsList(studentAttendanceInfoList));
+        if (studentAttendanceInfoList.size() == 0) {
+            result.put("list", studentAttendanceInfoList);
+            result.put("credits", "");
+        }
+        List<AttendanceRecords> list=attendanceRecordsList(studentAttendanceInfoList);
+        result.put("credits", CalculationCredits(list));
+        result.put("list", list);
         return Result.success(result);
     }
 

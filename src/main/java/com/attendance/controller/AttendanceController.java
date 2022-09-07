@@ -43,6 +43,13 @@ public class AttendanceController {
     }
 
 
+    /**
+     *学分转换
+     *
+     * @param WorkingHours 工作时间
+     * @param LearnHours   学习时间
+     * @return {@link Result}
+     */
     @GetMapping("/conversion")
     public Result conversion( Integer  WorkingHours, Integer  LearnHours){
             creditTransfer creditTransfer=new creditTransfer();
