@@ -3,7 +3,9 @@ package com.attendance.system.impl;
 
 import com.attendance.common.Result;
 import com.attendance.domain.LoginUser;
-import com.attendance.exception.UserPasswordNotMatchException;
+
+
+import com.attendance.exception.GeneralException;
 import com.attendance.system.LonginService;
 import com.attendance.utils.TokenUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,15 +27,16 @@ public class LonginServiceImpl implements LonginService {
 
 
     @Override
-    public Result login(String username, String password) throws UserPasswordNotMatchException {
+    public Result login(String username, String password) {
         // 用户验证
-        Authentication authentication = null;
+        Authentication authentication;
         try{
            //该方法会去调用UserDetailsServiceImpl.loadUserByUsername
             authentication = authenticationManager
                     .authenticate(new UsernamePasswordAuthenticationToken(username,password));
         }catch (Exception e){
-           return Result.error("用户名或密码错误");
+           throw new GeneralException(400,"用户名或密码错误");
+//           return Result.error("用户名或密码错误");
         }
         LoginUser loginUser = (LoginUser) authentication.getPrincipal();
         // 生成token

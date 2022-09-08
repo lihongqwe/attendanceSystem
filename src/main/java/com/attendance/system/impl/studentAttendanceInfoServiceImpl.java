@@ -115,7 +115,7 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
      * @param studentAttendanceInfoList 学生考勤信息列表
      * @return {@link List}<{@link AttendanceRecords}>
      */
-    public List<AttendanceRecords> attendanceRecordsList(List<studentAttendanceInfo> studentAttendanceInfoList) {
+    public List<AttendanceRecords> attendanceRecordsList(List<studentAttendanceInfo> studentAttendanceInfoList){
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         SimpleDateFormat dateFormats = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         AttendanceRecords attendanceRecordsUp = new AttendanceRecords();

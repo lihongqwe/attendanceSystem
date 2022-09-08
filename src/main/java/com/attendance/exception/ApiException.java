@@ -3,6 +3,7 @@ package com.attendance.exception;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
+
 public class ApiException extends RuntimeException{
 
     private static final long serialVersionUID = 1L;
@@ -17,6 +18,7 @@ public class ApiException extends RuntimeException{
     }
 
 
+
     public int getErrCode() {
         return errCode;
     }
@@ -24,9 +26,6 @@ public class ApiException extends RuntimeException{
     public void setErrCode(int errCode) {
         this.errCode = errCode;
     }
-
-
-
 
     public String getErrMsg() {
         return msg;
@@ -45,4 +44,6 @@ public class ApiException extends RuntimeException{
             .append("msg", getErrMsg())
             .toString();
     }
+
+
 }

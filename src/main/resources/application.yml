@@ -28,14 +28,12 @@ mybatis:
   type-aliases-package: com.attendance.domain
   mapper-locations: classpath*:mapper/*Mapper.xml
 
-
-
-
-# 日志配置
-logging:
+system:
+  path: {classpath:logback}/logs
   level:
-    com.wall: debug
-    org.springframework: warn
+    root: info
+
+
 
 # PageHelper
 pagehelper:
