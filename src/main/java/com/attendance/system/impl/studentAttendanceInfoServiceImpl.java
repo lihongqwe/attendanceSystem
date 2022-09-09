@@ -10,7 +10,6 @@ import com.attendance.system.studentAttendanceInfoService;
 import com.attendance.utils.RedisUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -20,12 +19,8 @@ import java.util.List;
 @Service
 public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoService {
 
-
     @Autowired
     private studentAttendanceInfoMapper studentAttendanceInfoMapper;
-
-    @Autowired
-    private RedisUtils redisUtils;
 
     @Autowired
     private creditTransferMapper creditTransferMapper;
@@ -99,7 +94,6 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
         String endTime = EndDate + " " + "00:00:00";
         List<studentAttendanceInfo> studentAttendanceInfoList = studentAttendanceInfoMapper.searchAllByTime(userId, startTime, endTime);
         Result result = new Result();
-        System.out.println(studentAttendanceInfoList);
         if (studentAttendanceInfoList.size() == 0) {
             result.put("list", studentAttendanceInfoList);
             result.put("credits", "");
@@ -164,7 +158,6 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
                 }
             }
         }
-//        redisUtils.setCacheObject(userId, attendanceRecordsList, 120, TimeUnit.MINUTES);
         return attendanceRecordsList;
     }
 

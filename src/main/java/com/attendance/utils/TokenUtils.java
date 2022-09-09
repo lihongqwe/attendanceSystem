@@ -186,12 +186,12 @@ public class TokenUtils {
      * @return 缓存键
      */
     public String getTokenCacheKey(String key) {
-        return Constants.LOGIN_USER_KEY + key;
+        return  key;
     }
 
     private String getTokenKey(String uuid)
     {
-        return Constants.LOGIN_TOKEN_KEY + uuid;
+        return  uuid;
     }
 
 }

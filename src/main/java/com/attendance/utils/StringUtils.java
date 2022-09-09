@@ -112,7 +112,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
      * @return
      */
     public static boolean userId(String str){
-        return str.length() != 1;
+        return str.length() == 11;
     }
 
     /**

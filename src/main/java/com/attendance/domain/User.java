@@ -8,8 +8,6 @@ public class User {
 
     private String username;
 
-    private String nickName;
-
     private String roles;
 
     private String phonenumber;
@@ -40,13 +38,6 @@ public class User {
         this.username = username == null ? null : username.trim();
     }
 
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
 
     public String getRoles() {
         return roles;
@@ -77,7 +68,6 @@ public class User {
         return "User{" +
                 "userId=" + userId +
                 ", username='" + username + '\'' +
-                ", nickName='" + nickName + '\'' +
                 ", roles='" + roles + '\'' +
                 ", phonenumber=" + phonenumber +
                 ", password='" + password + '\'' +

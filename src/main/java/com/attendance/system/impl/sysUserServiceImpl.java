@@ -108,8 +108,7 @@ public class sysUserServiceImpl implements sysUserService {
             user1.setUserId(studentUserInfo.getUserId());
             user1.setRoles(studentUserInfo.getRoles());
             user1.setPassword(studentUserInfo.getPassword());
-            user1.setUsername(studentUserInfo.getPhonenumber());
-            user1.setNickName(studentUserInfo.getUsername());
+            user1.setUsername(studentUserInfo.getUsername());
             user1.setPhonenumber((studentUserInfo.getPhonenumber()));
             user.add(user1);
         }
@@ -159,26 +158,24 @@ public class sysUserServiceImpl implements sysUserService {
     @Override
     public Result uptateprofile(User user) {
         int a;
-        if(StringUtils.userId(loginUser().getUser().getUserId())){
+        if(StringUtils.userId(user.getPhonenumber())){
             studentUserInfo studentUserInfo=new studentUserInfo();
             studentUserInfo.setPhonenumber(user.getPhonenumber());
-            studentUserInfo.setUserId(loginUser().getUser().getUserId());
-            studentUserInfo.setRoles(loginUser().getUser().getRoles());
-            studentUserInfo.setUsername(loginUser().getUser().getNickName());
-            studentUserInfo.setPassword(loginUser().getUser().getPassword());
-           a= studentUserInfoMapper.update(studentUserInfo);
+            studentUserInfo.setRoles(user.getRoles());
+            studentUserInfo.setUserId(user.getUserId());
+            studentUserInfo.setPassword(user.getPassword());
+            studentUserInfo.setUsername(user.getUsername());
+            a= studentUserInfoMapper.update(studentUserInfo);
         }else {
-            user.setUserId((loginUser().getUser().getUserId()));
-            user.setRoles(loginUser().getUser().getRoles());
-            user.setPassword(loginUser().getPassword());
             a=userMapper.updateByPrimaryKey(user);
         }
         if(a==1){
+            // 刷新登录的用户缓存
             tokenUtils.refreshLoginUser(loginUser());
             return Result.success("修改成功");
         }
         loginUser().setUser(user);
-        // 刷新登录的用户缓存
+
         return Result.error();
     }
 
@@ -207,7 +204,6 @@ public class sysUserServiceImpl implements sysUserService {
             studentUserInfo.setPassword(newEncryptedPassword);
             studentUserInfo.setUserId(loginUser().getUser().getUserId());
             studentUserInfo.setRoles(loginUser().getUser().getRoles());
-            studentUserInfo.setUsername(loginUser().getUser().getNickName());
             studentUserInfo.setPhonenumber(loginUser().getUser().getPhonenumber());
             studentUserInfoMapper.update(studentUserInfo);
             studentUserInfo  studentUserInfos =studentUserInfoMapper.selectByPrimaryKey(loginUser().getUser().getUserId());
@@ -215,7 +211,6 @@ public class sysUserServiceImpl implements sysUserService {
             User.setUserId(studentUserInfos.getUserId());
             User.setRoles(studentUserInfos.getRoles());
             User.setPhonenumber(studentUserInfos.getPhonenumber());
-            User.setNickName(studentUserInfos.getUsername());
 //            loginUser().setUser(User);
         }else {
             userMapper.updateByPrimaryKey(User);
@@ -233,11 +228,10 @@ public class sysUserServiceImpl implements sysUserService {
      */
     @Override
     public Result selectUserInfo() {
-        LoginUser loginUser = tokenUtils.getLoginUser(ServletUtils.getRequest());
-        if(loginUser.getUser().getUsername().length()==11){
-            return Result.success(studentUserInfoMapper.selectByPhoneNumber(loginUser.getUser().getUsername()));
+        if(loginUser().getUser().getUsername().length()==11){
+            return Result.success(studentUserInfoMapper.selectByPhoneNumber(tokenUtils.getLoginUser(ServletUtils.getRequest()).getSysUser().getUsername()));
         }
-        return Result.success(userMapper.selectUserByUserName(loginUser.getUser().getUsername()));
+        return Result.success(userMapper.selectUserByUserName(loginUser().getSysUser().getPhonenumber()));
     }
 
 
@@ -256,6 +250,7 @@ public class sysUserServiceImpl implements sysUserService {
     }
 
     private LoginUser loginUser(){
+
         return tokenUtils.getLoginUser(ServletUtils.getRequest());
     }
 
