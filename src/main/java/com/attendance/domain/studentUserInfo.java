@@ -6,7 +6,7 @@ public class studentUserInfo {
 
     private String userId;
 
-    private String userName;
+    private String username;
 
     private String phonenumber;
 
@@ -47,11 +47,11 @@ public class studentUserInfo {
     }
 
     public String getUserName() {
-        return userName;
+        return username;
     }
 
     public void setUserName(String userName) {
-        this.userName = userName == null ? null : userName.trim();
+        this.username = userName == null ? null : userName.trim();
     }
 
     public String getPhonenumber() {
@@ -67,7 +67,7 @@ public class studentUserInfo {
         return "studentUserInfo{" +
                 "id=" + id +
                 ", userId='" + userId + '\'' +
-                ", userName='" + userName + '\'' +
+                ", userName='" + username + '\'' +
                 ", phonenumber=" + phonenumber +
                 '}';
     }

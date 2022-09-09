@@ -1,7 +1,7 @@
 package com.attendance.exception;
 
-public class GeneralException extends ApiException{
-    public GeneralException( int errCode,String msg) {
-        super(errCode, msg);
+public class GeneralException extends RuntimeException{
+    public GeneralException( String errMsg) {
+        super(errMsg);
     }
 }

@@ -8,41 +8,65 @@ public class ApiException extends RuntimeException{
 
     private static final long serialVersionUID = 1L;
 
-    protected int errCode;
-    protected String msg;
+
+    protected String errCode;
+    protected Integer httpCode;
+    protected String errMsg;
+    protected String detail;
 
 
-    public ApiException(int errCode, String msg){
-        this.errCode=errCode;
-        this.msg = msg;
+    public ApiException(String errCode,Integer httpCode,String errMsg,String detail){
+        this.errCode = errCode;
+        this.httpCode = httpCode;
+        this.errMsg = errMsg;
+        this.detail = detail;
+    }
+
+    public ApiException(String errCode,Integer httpCode,String errMsg){
+
     }
 
 
-
-    public int getErrCode() {
+    public String getErrCode() {
         return errCode;
     }
 
-    public void setErrCode(int errCode) {
+    public void setErrCode(String errCode) {
         this.errCode = errCode;
     }
 
+    public Integer getHttpCode() {
+        return httpCode;
+    }
+
+    public void setHttpCode(Integer httpCode) {
+        this.httpCode = httpCode;
+    }
+
     public String getErrMsg() {
-        return msg;
+        return errMsg;
     }
 
     public void setErrMsg(String errMsg) {
-        this.msg = msg;
+        this.errMsg = errMsg;
     }
 
+    public String getDetail() {
+        return detail;
+    }
 
+    public void setDetail(String detail) {
+        this.detail = detail;
+    }
 
     @Override
     public String toString() {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
-            .append("errCode", getErrCode())
-            .append("msg", getErrMsg())
-            .toString();
+                .append("errCode", getErrCode())
+                .append("httpCode", getHttpCode())
+                .append("errMsg", getErrMsg())
+                .append("detail", getDetail())
+                .toString();
     }
 
 

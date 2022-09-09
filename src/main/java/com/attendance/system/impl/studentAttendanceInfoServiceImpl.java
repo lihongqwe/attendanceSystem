@@ -99,6 +99,7 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
         String endTime = EndDate + " " + "00:00:00";
         List<studentAttendanceInfo> studentAttendanceInfoList = studentAttendanceInfoMapper.searchAllByTime(userId, startTime, endTime);
         Result result = new Result();
+        System.out.println(studentAttendanceInfoList);
         if (studentAttendanceInfoList.size() == 0) {
             result.put("list", studentAttendanceInfoList);
             result.put("credits", "");

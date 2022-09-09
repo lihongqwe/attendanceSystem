@@ -24,18 +24,17 @@ spring:
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
+    # 打印sql
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   type-aliases-package: com.attendance.domain
   mapper-locations: classpath*:mapper/*Mapper.xml
 
-
-
-
-# 日志配置
-logging:
+system:
+  path: classpath:/logs
   level:
-    com.wall: debug
-    org.springframework: warn
+    root: info
+
+
 
 # PageHelper
 pagehelper:

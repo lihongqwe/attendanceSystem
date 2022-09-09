@@ -1,9 +1,9 @@
 package com.attendance.exception;
 
-public class UsernameNotFoundException extends ApiException{
+public class UsernameNotFoundException extends RuntimeException{
 
     public UsernameNotFoundException(String msg) {
-        super(400, msg);
+        super(msg);
     }
 
 }

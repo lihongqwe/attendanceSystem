@@ -35,8 +35,8 @@ public class AttendanceController {
 
     @GetMapping("/user/list")
     public Result getstudentattendanceinfo(@RequestParam(value = "userId") String  userId,
-                                           String startDate, String EndDate,Integer conversion){
-    if(StringUtils.isNull(startDate) || StringUtils.isNull(EndDate) || StringUtils.isNull(conversion)){
+                                           String startDate, String EndDate){
+    if(StringUtils.isNull(startDate) || StringUtils.isNull(EndDate)){
         return studentAttendanceInfoService.GetStudentAttendanceInfo(userId);
     }
         return studentAttendanceInfoService.GetStudentAttendanceInfoByTime(userId,EndDate,startDate);

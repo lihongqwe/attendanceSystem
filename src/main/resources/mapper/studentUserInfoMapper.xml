@@ -4,7 +4,7 @@
     <resultMap id="BaseResultMap" type="com.attendance.domain.studentUserInfo">
         <id column="id" property="id" jdbcType="INTEGER"/>
         <result column="user_id" property="userId" jdbcType="VARCHAR"/>
-        <result column="user_name" property="userName" jdbcType="VARCHAR"/>
+        <result column="user_name" property="username" jdbcType="VARCHAR"/>
         <result column="phonenumber" property="phonenumber" jdbcType="VARCHAR"/>
         <result column="password" property="password" jdbcType="VARCHAR"/>
         <result column="roles" property="roles" jdbcType="VARCHAR"/>
@@ -18,7 +18,7 @@
     <insert id="insert" parameterType="com.attendance.domain.studentUserInfo">
         insert into student_user_info (user_id, user_name,
                                        phonenumber, password,roles)
-        values (#{userId,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR},
+        values (#{userId,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR},
                 #{phonenumber,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR})
     </insert>
 
@@ -26,7 +26,7 @@
         insert into student_user_info (user_id, user_name,phonenumber, password,roles)
         value
         <foreach collection="list" item="item" index="index" separator=",">
-        (#{item.userId},#{item.userName},#{item.phonenumber},#{item.password},#{item.roles})
+        (#{item.userId},#{item.username},#{item.phonenumber},#{item.password},#{item.roles})
         </foreach>
     </insert>
 
@@ -37,7 +37,7 @@
     <update id="update" parameterType="com.attendance.domain.studentUserInfo">
         update student_user_info
         set
-            user_name   = #{userName,jdbcType=VARCHAR},
+            user_name   = #{username,jdbcType=VARCHAR},
             phonenumber = #{phonenumber,jdbcType=VARCHAR},
             password = #{password,jdbcType=VARCHAR},
             roles=   #{roles}
@@ -54,7 +54,7 @@
         <foreach collection="list" item="item" index="index" separator=";">
             update student_user_info
             <set>
-                user_id=#{item.userId},user_name=#{item.userName},phonenumber=#{item.phonenumber},password=#{item.password},roles=#{item.roles}
+                user_id=#{item.userId},user_name=#{item.username},phonenumber=#{item.phonenumber},password=#{item.password},roles=#{item.roles}
             </set>
         </foreach>
     </update>
