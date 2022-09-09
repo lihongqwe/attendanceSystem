@@ -109,7 +109,7 @@ public class sysUserServiceImpl implements sysUserService {
             user1.setRoles(studentUserInfo.getRoles());
             user1.setPassword(studentUserInfo.getPassword());
             user1.setUsername(studentUserInfo.getPhonenumber());
-            user1.setNickName(studentUserInfo.getUserName());
+            user1.setNickName(studentUserInfo.getUsername());
             user1.setPhonenumber((studentUserInfo.getPhonenumber()));
             user.add(user1);
         }
@@ -136,7 +136,7 @@ public class sysUserServiceImpl implements sysUserService {
             studentUserInfo.setUserId(user.getUserId());
             studentUserInfo.setRoles(user.getRoles());
             studentUserInfo.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
-            studentUserInfo.setUserName(user.getUsername());
+            studentUserInfo.setUsername(user.getUsername());
             studentUserInfo.setPhonenumber(user.getPhonenumber());
             a=studentUserInfoMapper.update(studentUserInfo);
         }else {
@@ -164,7 +164,7 @@ public class sysUserServiceImpl implements sysUserService {
             studentUserInfo.setPhonenumber(user.getPhonenumber());
             studentUserInfo.setUserId(loginUser().getUser().getUserId());
             studentUserInfo.setRoles(loginUser().getUser().getRoles());
-            studentUserInfo.setUserName(loginUser().getUser().getNickName());
+            studentUserInfo.setUsername(loginUser().getUser().getNickName());
             studentUserInfo.setPassword(loginUser().getUser().getPassword());
            a= studentUserInfoMapper.update(studentUserInfo);
         }else {
@@ -207,7 +207,7 @@ public class sysUserServiceImpl implements sysUserService {
             studentUserInfo.setPassword(newEncryptedPassword);
             studentUserInfo.setUserId(loginUser().getUser().getUserId());
             studentUserInfo.setRoles(loginUser().getUser().getRoles());
-            studentUserInfo.setUserName(loginUser().getUser().getNickName());
+            studentUserInfo.setUsername(loginUser().getUser().getNickName());
             studentUserInfo.setPhonenumber(loginUser().getUser().getPhonenumber());
             studentUserInfoMapper.update(studentUserInfo);
             studentUserInfo  studentUserInfos =studentUserInfoMapper.selectByPrimaryKey(loginUser().getUser().getUserId());
@@ -215,7 +215,7 @@ public class sysUserServiceImpl implements sysUserService {
             User.setUserId(studentUserInfos.getUserId());
             User.setRoles(studentUserInfos.getRoles());
             User.setPhonenumber(studentUserInfos.getPhonenumber());
-            User.setNickName(studentUserInfos.getUserName());
+            User.setNickName(studentUserInfos.getUsername());
 //            loginUser().setUser(User);
         }else {
             userMapper.updateByPrimaryKey(User);

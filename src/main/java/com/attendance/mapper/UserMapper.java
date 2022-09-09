@@ -21,7 +21,4 @@ public interface UserMapper {
     User selectUserByUserName(String username);
 
     List<User> selectAllUser();
-
-
-//    int uptateUserInfo(User user);
 }

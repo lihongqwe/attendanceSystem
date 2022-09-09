@@ -46,12 +46,12 @@ public class studentUserInfo {
         this.userId = userId == null ? null : userId.trim();
     }
 
-    public String getUserName() {
+    public String getUsername() {
         return username;
     }
 
-    public void setUserName(String userName) {
-        this.username = userName == null ? null : userName.trim();
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 
     public String getPhonenumber() {
@@ -67,7 +67,7 @@ public class studentUserInfo {
         return "studentUserInfo{" +
                 "id=" + id +
                 ", userId='" + userId + '\'' +
-                ", userName='" + username + '\'' +
+                ", username='" + username + '\'' +
                 ", phonenumber=" + phonenumber +
                 '}';
     }

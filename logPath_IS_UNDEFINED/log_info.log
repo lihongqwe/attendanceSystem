@@ -41,3 +41,126 @@
 2022-09-09 13:07:09.681 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-09-09 13:07:10.467 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
 2022-09-09 13:07:10.728 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-09 16:39:03.173 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 6984 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 16:39:03.202 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 16:39:04.970 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 16:39:04.971 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 16:39:04.971 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 16:39:05.040 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 16:39:06.306 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-09 16:39:06.330 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.562 seconds (JVM running for 4.456)
+2022-09-09 16:39:06.826 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-09 16:39:07.046 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-09 16:39:07.256 [http-nio-8082-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-09-09 17:01:07.843 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 20256 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:01:07.844 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:01:09.230 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:01:09.231 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:01:09.231 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:01:09.321 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:01:09.669 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:01:09.742 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:01:09.860 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:01:09.860 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:01:09.872 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-09 17:01:55.074 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 20756 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:01:55.075 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:01:56.301 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:01:56.301 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:01:56.301 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:01:56.384 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:01:56.740 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:01:56.807 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:01:56.931 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:01:56.932 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:01:56.944 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-09 17:03:19.859 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16252 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:03:19.860 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:03:21.140 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:03:21.141 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:03:21.141 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:03:21.228 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:03:21.575 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:03:21.637 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:03:21.764 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:03:21.765 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:03:21.777 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-09 17:05:10.799 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 17804 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:05:10.800 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:05:11.901 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:05:11.902 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:05:11.902 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:05:11.986 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:05:12.333 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:05:12.394 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:05:12.509 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:05:12.510 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:05:12.522 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-09 17:10:03.467 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 8792 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:10:03.468 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:10:04.875 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:10:04.876 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:10:04.876 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:10:04.967 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:10:05.318 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:10:05.377 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:10:05.491 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:10:05.492 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:10:05.504 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-09 17:11:07.968 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 16196 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:11:07.969 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:11:09.077 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:11:09.078 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:11:09.078 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:11:09.161 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:11:09.508 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:11:09.569 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:11:09.708 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:11:09.708 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:11:09.720 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-09 17:12:44.635 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 17784 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:12:44.636 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:12:45.797 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:12:45.798 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:12:45.798 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:12:45.887 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:12:46.255 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:12:46.323 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:12:46.421 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:12:46.422 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:12:46.434 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-09 17:13:01.671 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 19920 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:13:01.672 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:13:02.775 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:13:02.775 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:13:02.776 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:13:02.881 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:13:03.425 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:13:03.489 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:13:03.622 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:13:03.622 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:13:03.634 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-09 17:13:26.263 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 15428 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:13:26.264 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:13:27.586 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:13:27.586 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:13:27.586 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:13:27.667 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:13:28.011 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:13:28.071 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:13:29.159 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:13:29.185 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 3.254 seconds (JVM running for 3.901)
+2022-09-09 17:13:29.534 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-09 17:15:10.118 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-09-09 17:15:10.120 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-09-09 17:15:50.974 [restartedMain] INFO  com.attendance.AttendanceApplication - Starting AttendanceApplication using Java 1.8.0_201 on DESKTOP-GI6AVI7 with PID 19656 (D:\java\java_practice\attendance\target\classes started by lihong in D:\java\java_practice\attendance)
+2022-09-09 17:15:50.975 [restartedMain] INFO  com.attendance.AttendanceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-09-09 17:15:52.107 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:15:52.108 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-09 17:15:52.108 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-09 17:15:52.193 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-09 17:15:52.539 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-09-09 17:15:52.602 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-09-09 17:15:53.504 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-09-09 17:15:53.527 [restartedMain] INFO  com.attendance.AttendanceApplication - Started AttendanceApplication in 2.938 seconds (JVM running for 3.742)
+2022-09-09 17:15:55.486 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'

@@ -22,7 +22,6 @@
     values (#{username,jdbcType=VARCHAR}, #{nickName,jdbcType=VARCHAR},
       #{roles,jdbcType=VARCHAR}, #{phonenumber,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}
       )
-
   </insert>
 
   <update id="updateByPrimaryKey" parameterType="com.attendance.domain.User" >
@@ -46,7 +45,7 @@
     from user
   </select>
 
-  <select id="selectUserByUserName" resultType="User">
+  <select id="selectUserByUserName" resultMap="BaseResultMap" >
     select * from user where username=#{username}
   </select>
 

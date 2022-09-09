@@ -60,7 +60,7 @@
     </update>
 
     <select id="selectByPhoneNumber" resultMap="BaseResultMap" parameterType="String">
-        select id, user_id, user_name, phonenumber, password,roles
+        select id, user_id, user_name, phonenumber, password,roles,user_name
         from student_user_info
         where phonenumber = #{phonenumber,jdbcType=INTEGER}
     </select>

@@ -168,7 +168,7 @@ public class ScheduledTask implements ScheduledTasks {
         for(OapiV2UserListResponse.ListUserResponse listUserResponse:list){
             studentUserInfo userInfo=new studentUserInfo();
             userInfo.setUserId(listUserResponse.getUserid());
-            userInfo.setUserName(listUserResponse.getName());
+            userInfo.setUsername(listUserResponse.getName());
             userInfo.setPhonenumber(listUserResponse.getMobile());
             //学生默认密码为123456
             userInfo.setPassword(bCryptPasswordEncoder.encode("123456"));
