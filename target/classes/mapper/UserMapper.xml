@@ -51,4 +51,8 @@
     select * from  user
   </select>
 
+  <select id="selectUser" resultMap="BaseResultMap">
+    select * from user where  user_name=#{username}
+  </select>
+
 </mapper>

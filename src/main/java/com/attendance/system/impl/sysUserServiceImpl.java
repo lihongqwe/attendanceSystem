@@ -81,14 +81,12 @@ public class sysUserServiceImpl implements sysUserService {
     @Override
     public Result GetUserInfo(String username) {
         Result result=new Result();
-        if(username.length()==11){
-            return  Result.success(result.put("userInfo",studentUserInfoMapper.selectByPhoneNumber(username)));
+        if(userMapper.selectUserByUserName(username)!=null){
+            result.put("userInfo",userMapper.selectUser(username));
+        }else {
+            result.put("userInfo",studentUserInfoMapper.selectByUsername(username));
         }
-        if(StringUtils.isNotNull(userMapper.selectUserByUserName(username))){
-            result.put("userInfo",userMapper.selectUserByUserName(username));
-            return Result.success(result);
-        }
-        return Result.error("没有该用户信息");
+        return Result.success(result);
     }
 
     /**

@@ -40,13 +40,13 @@ public class UserController {
     /**
      * 根据用户名查询用户信息
      *
-     * @param username 用户名
+     * @param user 用户
      * @return {@link Result}
      */
-    @GetMapping("/{username}")
-    public Result GetUserInfo(@PathVariable String username){
-        if(StringUtils.isNotEmpty(username)){
-           return sysUserService.GetUserInfo(username);
+    @PostMapping
+    public Result GetUserInfo(@RequestBody User user){
+        if(StringUtils.isNotEmpty(user.getUsername())){
+           return sysUserService.GetUserInfo(user.getUsername());
         }
         return Result.error("用户名不能为空");
     }

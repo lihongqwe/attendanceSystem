@@ -33,7 +33,7 @@ public class LonginServiceImpl implements LonginService {
             authentication = authenticationManager
                     .authenticate(new UsernamePasswordAuthenticationToken(username,password));
         }catch (Exception e){
-           throw new GeneralException("用户名或密码错误");
+           return Result.error("用户名或密码错误");
 //           return Result.error("用户名或密码错误");
         }
         LoginUser loginUser = (LoginUser) authentication.getPrincipal();
