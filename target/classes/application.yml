@@ -4,15 +4,17 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/attendance?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&characterEncoding=utf-8&allowMultiQueries=true
+#    url: jdbc:mysql://124.223.15.205:3306/db1?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&characterEncoding=utf-8&allowMultiQueries=true
+    url: jdbc:mysql://127.0.0.1:3306/attendance?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&characterEncoding=utf-8&allowMultiQueries=true
     username: root
     password: root
 
   redis:
+#    host: 124.223.15.205
     host: 127.0.0.1
     port: 6379
     database: 0
-    password:
+#    password: lihong
     timeout: 10s
     lettuce:
       pool:
@@ -20,6 +22,7 @@ spring:
         max-idle: 8
         max-active: 8
         max-wait: -1ms
+    password:
 
 mybatis:
   configuration:

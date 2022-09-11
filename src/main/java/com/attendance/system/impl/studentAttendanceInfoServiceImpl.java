@@ -54,7 +54,7 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
      * @param list 列表
      * @return {@link Result}
      */
-    public float CalculationCredits(List<AttendanceRecords> list ) {
+    public double CalculationCredits(List<AttendanceRecords> list ) {
         // 计算学分
         creditTransfer creditTransfer  =creditTransferMapper.selectByPrimaryKey(1);
         Integer WorkingHours=creditTransfer.getWorkingHours();
@@ -64,7 +64,7 @@ public class studentAttendanceInfoServiceImpl implements studentAttendanceInfoSe
             assert false;
             credits += Float.parseFloat(attendanceRecords.getLength());
         }
-        return credits /(WorkingHours*LearnHours) ;
+        return Math.floor(credits /(WorkingHours*LearnHours))  ;
     }
 
     /**

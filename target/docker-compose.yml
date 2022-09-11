@@ -1,0 +1,15 @@
+version: '3'
+services:
+  nginx；
+   image: nginx
+   ports:
+    - 80: 80
+    links:
+     - app
+    volumes；
+     - ./nginx/conf.d:/etc/nginx/conf.d
+  app:
+    image: app
+    expose:
+      - "8082"
+      

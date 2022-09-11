@@ -1,5 +1,8 @@
 package com.attendance.security;
 
+import com.alibaba.fastjson.JSON;
+import com.attendance.common.ErrorDTO;
+import com.attendance.utils.ServletUtils;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
@@ -21,22 +24,12 @@ public class AuthenticationEntryPointImpl implements AuthenticationEntryPoint, S
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException e)
     {
-        renderString(response,"用户授权未通过",406);
+        ErrorDTO errorDTO = new ErrorDTO();
+        errorDTO.setErrCode("USER_UNAUTHORIZED");
+        errorDTO.setMessage("用户授权未通过");
+        errorDTO.setHttpCode(409);
+        errorDTO.setDetail("认证失败!");
+        ServletUtils.renderString(response, JSON.toJSONString(errorDTO),409);
     }
 
-    public static String renderString(HttpServletResponse response, String string,Integer httpCode)
-    {
-        try
-        {
-            response.setStatus(httpCode);
-            response.setContentType("application/json");
-            response.setCharacterEncoding("utf-8");
-            response.getWriter().print(string);
-        }
-        catch (IOException e)
-        {
-            e.printStackTrace();
-        }
-        return null;
-    }
 }

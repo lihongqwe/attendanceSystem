@@ -22,10 +22,6 @@ public class LoginController {
     @Autowired
     private sysUserService sysUserService;
 
-    @Autowired
-    private TokenUtils tokenUtils;
-
-
 
     @PostMapping("/login")
     public Result login(@RequestBody LoginBody loginBody){
